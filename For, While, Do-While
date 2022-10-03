@@ -1,0 +1,25 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+
+        for (int i = 5; i != 0; i--) {
+            System.out.println("Joan");
+
+        }
+
+        int lastnameCount = 5;
+
+        while (lastnameCount != 0) {
+            System.out.println("Casimero");
+            lastnameCount--;
+            
+        }
+    
+        int nicknameCount = 5;
+
+        do {
+            System.out.println("Jon");
+            nicknameCount--;
+        } while (nicknameCount != 0);
+        
+    }
+}
